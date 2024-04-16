@@ -2,11 +2,6 @@ import Navbar from "../components/Navbar";
 import { Loader } from '@googlemaps/js-api-loader';
 
 export default function Contatti(){
-
-   
-    
-        
-
     return (
         <>
             <Navbar />

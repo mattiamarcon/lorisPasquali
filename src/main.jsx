@@ -19,18 +19,14 @@ const router = createBrowserRouter([
     errorElement: <Error />
   },
   {
-    path: "/lorisPasquali/contatti",
+    path: "/contatti",
     element: <Contatti />,
     errorElement: <Error />
   },
   {
-    path: "/lorisPasquali/storia",
+    path: "/storia",
     element: <Storia />,
     errorElement: <Error />
-  },
-  {
-    path:"/lorisPasquali/",
-    element:<Home />
   }
 ]);
 
