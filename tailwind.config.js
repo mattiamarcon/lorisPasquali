@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-        'homeImage': "url('homeImage.png')",
-      },
       fontFamily:{
         'sans' : ['Noto Sans', 'sans-serif'],
       }
