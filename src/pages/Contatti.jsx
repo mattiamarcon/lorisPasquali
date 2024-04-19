@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
-import { Loader } from '@googlemaps/js-api-loader';
+import Footer from "../components/Footer";
+
 
 export default function Contatti(){
     return (
@@ -17,7 +18,7 @@ export default function Contatti(){
                     <a href="tel:+393920142460" rel="noopener noreferrer" className="text-xl underline hover:text-blue-500 cursor-pointer">123 456 7890</a>
                 </div>
             </div>
-            
+            <Footer />
         </>
     );
 }

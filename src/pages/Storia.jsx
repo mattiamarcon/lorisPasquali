@@ -1,6 +1,6 @@
 import { useEffect,useRef } from "react";
 import Navbar from "../components/Navbar";
-import Headroom from "react-headroom";
+import Footer from "../components/Footer";
 
 export default function Storia(){
 
@@ -45,9 +45,7 @@ export default function Storia(){
     
     return (
         <div id="story-page">
-            <Headroom>
-                <Navbar />
-            </Headroom>
+            <Navbar />
             <h1>STORIA</h1>
             <div className="w-full h-screen bg-red-600 element grid place-items-center">
                 <p className="text-6xl">ciao</p>
@@ -58,6 +56,7 @@ export default function Storia(){
             <div className="w-full h-screen bg-blue-600 element grid place-items-center" >
                 <p className="text-6xl">ciao</p>
             </div>
+            <Footer />
         </div>
     );
 }

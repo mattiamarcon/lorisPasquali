@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import Headroom from "react-headroom";
+import Footer from "../components/Footer";
 
 
 export default function Home(){
@@ -9,9 +9,7 @@ export default function Home(){
 
     return (
         <>
-            <Headroom>
-                <Navbar />
-            </Headroom>
+            <Navbar />
             <div className="relative grid place-items-center h-[90vh]">
                 <img src="./foto2.png" alt="" className="h-[90vh] p-3 xl:w-full object-cover opacity-70" />
                 <div className="absolute flex flex-col h-1/3 justify-evenly w-4/5 text-center font-sans p-2">
@@ -23,6 +21,7 @@ export default function Home(){
             <h1 className=" text-red-500">HOME</h1>
             <h2>Serviazi</h2>
             <h1>contatti</h1>
+            <Footer />
         </>
     );
 }
