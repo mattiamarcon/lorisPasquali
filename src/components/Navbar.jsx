@@ -31,7 +31,6 @@ export default function Navbar(){
 
                 <span className="text-3xl cursor-pointer mx-2 md:hidden block">
                     <AiOutlineMenu onClick={menu} id="menuBars"/>
-                    
                 </span>
                 </div>
 
@@ -40,11 +39,18 @@ export default function Navbar(){
                         <Link to={'/'} className="text-xl hover:text-cyan-500 duration-500">HOME</Link>
                     </li>
                     <li className="mx-4 my-6 md:my-0">
+                        <Link to={'/attivita-in-corso'} className="text-xl hover:text-cyan-500 duration-500">ATTIVITA' IN CORSO</Link>
+                    </li>
+                    <li className="mx-4 my-6 md:my-0">
+                        <Link to={'/progetti-completati'} className="text-xl hover:text-cyan-500 duration-500">PROGETTI COMPLETATI</Link>
+                    </li>
+                    <li className="mx-4 my-6 md:my-0">
                         <Link to={'/storia'} className="text-xl hover:text-cyan-500 duration-500">STORIA</Link>
                     </li>
                     <li className="mx-4 my-6 md:my-0">
                         <Link to={'/contatti'} className="text-xl hover:text-cyan-500 duration-500">CONTATTI</Link>
                     </li>
+                    
                 </ul>
             </nav>
         </Headroom>

@@ -17,10 +17,6 @@ export default function Home(){
                     <button className="border-black border-2 w-fit p-3 rounded-md m-auto bg-yellow-200 font-bold text-xl italic hover:bg-yellow-300">LA NOSTRA IDEA DI LAVORO</button>
                 </div>
             </div>
-            
-            <h1 className=" text-red-500">HOME</h1>
-            <h2>Serviazi</h2>
-            <h1>contatti</h1>
             <Footer />
         </>
     );

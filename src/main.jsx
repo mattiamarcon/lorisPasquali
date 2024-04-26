@@ -6,6 +6,8 @@ import Error from './pages/Error.jsx'
 import Home from './pages/Home.jsx'
 import Contatti from './pages/Contatti.jsx'
 import Storia from './pages/Storia.jsx'
+import AttivitaInCorso from './pages/AttivitaInCorso.jsx'
+import ProgettiCompletati from './pages/ProgettiCompletati.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,6 +28,16 @@ const router = createBrowserRouter([
   {
     path: "/storia",
     element: <Storia />,
+    errorElement: <Error />
+  },
+  {
+    path: "/attivita-in-corso",
+    element: <AttivitaInCorso />,
+    errorElement: <Error />
+  },
+  {
+    path: "/progetti-completati",
+    element: <ProgettiCompletati />,
     errorElement: <Error />
   }
 ]);
