@@ -1,0 +1,55 @@
+[{
+    "id":0,
+    "Luogo": "Vicenza",
+    "Anno": 2018,
+    "Descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid minima. Labore, iure. Iusto eius soluta, consectetur earum numquam nostrum odit. Veniam, totam ratione.",
+    "DescrizioneDettagliata" : "Lorem LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid ",
+    "Foto" : [
+        {
+            "id":0,
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "id":1,
+            "url" : "./progettiCompletati/casaDopo.jpg"
+        }
+    ]
+},
+{
+    "id":1,
+    "Luogo": "Caorle",
+    "Anno": 2020,
+    "Descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid minima. Labore, iure. Iusto eius soluta, consectetur earum numquam nostrum odit. Veniam, totam ratione.",
+    "DescrizioneDettagliata" : "Lorem LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid ",
+    "Foto" : [
+        {
+            "id":0,
+            "url" : "./progettiCompletati/casaDopo.jpg"
+        },
+        {
+            "id":1,
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        },
+        {
+            "id":2,
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        }
+    ]
+},
+{
+    "id":2,
+    "Luogo": "Caorle",
+    "Anno": 2016,
+    "Descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid minima. Labore, iure. Iusto eius soluta, consectetur earum numquam nostrum odit. Veniam, totam ratione.",
+    "DescrizioneDettagliata" : "Lorem LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid ",
+    "Foto" : [
+        {
+            "id":0,
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "id":1,
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        }
+    ]
+}]
