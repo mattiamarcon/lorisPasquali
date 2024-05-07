@@ -1,0 +1,48 @@
+[{
+    "id":0,
+    "Luogo": "Vicenza",
+    "Inizio": 2018,
+    "Fine": "...",
+    "Descrizione": "Un lussuoso complesso residenziale con vista sul mare, attualmente in fase di costruzione. Con design contemporaneo e materiali di alta qualità, Mare Blu promette di offrire un'eccellente esperienza di vita costiera.",
+    "Foto" : [
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo.jpg"
+        }
+    ]
+},
+{
+    "id":1,
+    "Luogo": "Caorle",
+    "Inizio": 2020,
+    "Fine": "...",
+    "Descrizione": " Una moderna torre per uffici che sta prendendo forma nel cuore del quartiere finanziario di Torino. Con un'architettura audace e tecnologie all'avanguardia, Skyline diventerà presto un'icona della skyline urbana.",
+    "Foto" : [
+        {
+            "url" : "./progettiCompletati/casaDopo.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        }
+    ]
+},
+{
+    "id":2,
+    "Luogo": "Caorle",
+    "Inizio": 2016,
+    "Fine": "...",
+    "Descrizione": "Un esclusivo complesso alberghiero immerso nelle montagne, attualmente in fase di costruzione. Con un design che si fonde armoniosamente con l'ambiente naturale circostante, Montagna Vista offrirà un rifugio di lusso per gli amanti della natura e degli sport invernali.",
+    "Foto" : [
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        }
+    ]
+}]

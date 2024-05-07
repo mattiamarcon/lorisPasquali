@@ -1,16 +1,14 @@
 [{
     "id":0,
     "Luogo": "Vicenza",
-    "Anno": 2018,
-    "Descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid minima. Labore, iure. Iusto eius soluta, consectetur earum numquam nostrum odit. Veniam, totam ratione.",
-    "DescrizioneDettagliata" : "Lorem LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid ",
+    "Inizio": 2018,
+    "Fine": 2020,
+    "Descrizione": "Una sontuosa residenza unifamiliare con design contemporaneo. Dotata di ampi spazi aperti e finiture di lusso, Villa Serena offre un'eleganza senza tempo e un comfort ineguagliabile.",
     "Foto" : [
         {
-            "id":0,
             "url" : "./progettiCompletati/casaPrima.jpg"
         },
         {
-            "id":1,
             "url" : "./progettiCompletati/casaDopo.jpg"
         }
     ]
@@ -18,20 +16,23 @@
 {
     "id":1,
     "Luogo": "Caorle",
-    "Anno": 2020,
-    "Descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid minima. Labore, iure. Iusto eius soluta, consectetur earum numquam nostrum odit. Veniam, totam ratione.",
-    "DescrizioneDettagliata" : "Lorem LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid ",
+    "Inizio": 2020,
+    "Fine": 2021,
+    "Descrizione": "Un moderno complesso commerciale che unisce design innovativo e funzionalità. Aurora è diventata la destinazione preferita per lo shopping e l'intrattenimento, offrendo una vasta gamma di negozi, ristoranti e strutture ricreative.",
     "Foto" : [
         {
-            "id":0,
             "url" : "./progettiCompletati/casaDopo.jpg"
         },
         {
-            "id":1,
             "url" : "./progettiCompletati/casaDopo2.jpg"
         },
         {
-            "id":2,
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaPrima2.jpg"
+        },
+        {
             "url" : "./progettiCompletati/casaPrima.jpg"
         }
     ]
@@ -39,17 +40,64 @@
 {
     "id":2,
     "Luogo": "Caorle",
-    "Anno": 2016,
-    "Descrizione": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid minima. Labore, iure. Iusto eius soluta, consectetur earum numquam nostrum odit. Veniam, totam ratione.",
-    "DescrizioneDettagliata" : "Lorem LoLorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia aperiam veniam porro nihil delectus laborum aliquid ",
+    "Inizio": 2016,
+    "Fine": 2019,
+    "Descrizione": "Un'opera di restauro che ha riportato alla luce l'antico splendore del Palazzo Rossi, un'icona storica nel cuore di Firenze. Le delicate opere di conservazione e il rispetto per l'architettura originale hanno reso questa ristrutturazione un vero trionfo dell'arte edile.",
     "Foto" : [
         {
-            "id":0,
             "url" : "./progettiCompletati/casaPrima.jpg"
         },
         {
-            "id":1,
             "url" : "./progettiCompletati/casaDopo2.jpg"
         }
     ]
-}]
+},
+{
+    "id":3,
+    "Luogo": "Caorle",
+    "Inizio": 2018,
+    "Fine": 2021,
+    "Descrizione": "Un'elegante comunità residenziale che celebra la bellezza della primavera. Con giardini rigogliosi, aree verdi e spazi comuni accoglienti, Primavera offre un'atmosfera serena e un'esperienza di vita incomparabile.",
+    "Foto" : [
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        }
+    ]
+},
+{
+    "id":4,
+    "Luogo": "Venezia",
+    "Inizio": 2017,
+    "Fine": 2019,
+    "Descrizione": "Un centro medico all'avanguardia progettato per offrire cure di alta qualità in un ambiente accogliente e confortevole. Dotato delle più recenti tecnologie e di un team medico esperto, San Luca è diventato un punto di riferimento per la salute e il benessere nella regione.",
+    "Foto" : [
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaPrima.jpg"
+        },
+        {
+            "url" : "./progettiCompletati/casaDopo2.jpg"
+        }
+    ]
+}
+]

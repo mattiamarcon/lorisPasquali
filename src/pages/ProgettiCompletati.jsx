@@ -29,7 +29,7 @@ export default function ProgettiCompletati(){
                             return <Card progetto={progetto} key={progetto.id} />
                         })}
                     </div>
-                    
+
                 </div>
             </div>
             <Footer />
