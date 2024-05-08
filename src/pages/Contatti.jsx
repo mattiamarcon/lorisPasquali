@@ -1,11 +1,10 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import StandardPage from "../components/StandardPage";
 
 
 export default function Contatti(){
     return (
         <>
-            <Navbar />
+            <StandardPage>
             <h1 className="text-blue-700 text-5xl font-sans font-bold text-center m-5">CONTATTI</h1>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1961.1621482241155!2d12.528373817858844!3d45.8205092883968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47795d5b95324513%3A0x11f5a394823538fc!2sBar%20Villeneuve!5e1!3m2!1sit!2sit!4v1713100611581!5m2!1sit!2sit" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="w-full h-[60vh] "></iframe>
             <div className="flex flex-col m-4">
@@ -18,7 +17,7 @@ export default function Contatti(){
                     <a href="tel:+393920142460" rel="noopener noreferrer" className="text-xl underline hover:text-blue-500 cursor-pointer">123 456 7890</a>
                 </div>
             </div>
-            <Footer />
+            </StandardPage >
         </>
     );
 }

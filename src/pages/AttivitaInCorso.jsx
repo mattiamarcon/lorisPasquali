@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import StandardPage from "../components/StandardPage";
 import Card from "../components/Card";
 import { useEffect, useState } from "react";
 
@@ -17,7 +16,7 @@ export default function AttivitaInCorso(){
 
     return (
         <>
-            <Navbar />
+            <StandardPage>
             <div className="w-full flex flex-col">
                 <div className="w-full text-center relative grid place-items-center">
                     <img src="./lavoriInCorso.jpg" alt="" className="w-full object-cover opacity-90 h-24"/>
@@ -31,7 +30,7 @@ export default function AttivitaInCorso(){
                     </div>
                 </div>
             </div>
-            <Footer />
+            </StandardPage>
         </>
     )  
 }

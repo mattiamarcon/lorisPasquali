@@ -1,62 +1,47 @@
 import { useEffect,useRef } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import StandardPage from "../components/StandardPage";
+import { Parallax,ParallaxLayer } from "@react-spring/parallax";
+
 
 export default function Storia(){
 
-    const ref=useRef();
+  //sistemare bene graficamente pagina storia
 
-    useEffect(()=>{
-        document.getElementById("story-page").addEventListener(('click'),()=>{
-            makeTheChange();
-        })
-
-        //react-scroll parallax
-
-    },[])
-    
-    function makeTheChange(){
-
-        const elements= document.querySelectorAll(".element");
-
-        elements.forEach(element=>element.innerText="ciaooooooooo")
-
-        const observer = new IntersectionObserver(animationText,{threshold:0.5});
-
-        elements.forEach(element=>{
-            observer.observe(element);
-        });
-    
-        // elements.foreach(element => {
-        //   observer.observe(element);
-        // });
-      }
-    
-      function animationText(items){
-        items.foreach(item=>{
-          if(item.isIntersecting){
-            console.log("insterseco")
-            item.target.classList.add("bg-yellow-500");
-          }else{
-            item.target.classList.add("bg-yellow-500");
-          }
-        });
-      }
-    
     return (
-        <div id="story-page">
-            <Navbar />
-            <h1>STORIA</h1>
-            <div className="w-full h-screen bg-red-600 element grid place-items-center">
-                <p className="text-6xl">ciao</p>
-            </div>
-            <div className="w-full h-screen bg-green-600 element grid place-items-center" ref={ref} >
-                <p className="text-6xl">ciao</p>
-            </div>
-            <div className="w-full h-screen bg-blue-600 element grid place-items-center" >
-                <p className="text-6xl">ciao</p>
-            </div>
-            <Footer />
-        </div>
+      <>
+        <StandardPage>
+          <div className="grid place-items-center relative text-center">
+            <img src="famigliaConCasa.png" alt="" className="w-full opacity-70 h-96 object-cover" />
+            <h1 className="absolute text-7xl font-bold text-red-700 underline underline-offset-2">I NOSTRI VALORI</h1>
+          </div>
+          <div className="flex flex-col lg:flex-row p-3 w-full justify-evenly ">
+            <div className="flex flex-col lg:w-1/3 m-3 text-center justify-evenly w-2/3 mx-auto">
+              <h1 className=" font-semibold text-4xl mb-8">LA FAMIGLIA</h1>
+              <p className="mb-8">
+                L'azienda edile "Loris Pasquali Immobiliare Costruzioni" è una nuova e dinamica realtà nel panorama edile, fondata e guidata con passione da un unico socio, il quale porta con sé l'antica tradizione familiare nel settore delle costruzioni. Cresciuto in una <strong>famiglia di muratori</strong> nel cuore della provincia di Treviso e del Veneto, il fondatore ha deciso di intraprendere questa avventura per rimanere vicino alla sua famiglia e per onorare la lunga eredità di maestria artigianale che lo ha preceduto.
+              </p>
+              </div>
+            <img src="foto2.png" alt="" className="lg:w-1/2 "/>
+          </div>
+          
+
+      
+        </StandardPage>
+      </>
     );
 }
+
+/*
+  <img src="famigliaConCasa.png" alt="" className="w-full opacity-85 h-96 object-cover" />
+          <div className="flex flex-wrap flex-row">
+            <div className="flex flex-col m-3 md:w-1/2">
+              <h1>LA FAMIGLIA</h1>
+              <p>
+              L'azienda edile "Loris Pasquali Immobiliare Costruzioni" è una nuova e dinamica realtà nel panorama edile, fondata e guidata con passione da un unico socio, il quale porta con sé l'antica tradizione familiare nel settore delle costruzioni. Cresciuto in una famiglia di muratori nel cuore della provincia di Treviso e del Veneto, il fondatore ha deciso di intraprendere questa avventura per rimanere vicino alla sua famiglia e per onorare la lunga eredità di maestria artigianale che lo ha preceduto.
+              </p>
+            </div>
+            <img src="foto2.png" alt="" className="lg:w-1/3"/>
+
+           
+          </div>
+*/
