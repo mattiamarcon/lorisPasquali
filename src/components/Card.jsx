@@ -12,7 +12,7 @@ export default function Card({progetto,id}){
         <div className="m-3 w-5/6" >
             <div className="border-black border-2 rounded-t-md p-1 cursor-pointer">
                 <div className="h-48 sm:h-56 lg:h-72 l:h-96 2xl:h-96 ">
-                    <Carousel leftControl={<MdArrowBackIosNew color="white" />} rightControl={<MdArrowForwardIos color="white" />} >
+                    <Carousel leftControl={<MdArrowBackIosNew color="white" />} rightControl={<MdArrowForwardIos color="white" />} pauseOnHover >
                         {foto.map(f=>{
                             return <img src={f.url} alt="" key={f.url} />
                         })}
