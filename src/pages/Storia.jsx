@@ -12,7 +12,7 @@ export default function Storia(){
         <StandardPage>
           <div className="grid place-items-center relative text-center">
             <img src="famigliaConCasa.png" alt="" className="w-full opacity-70 h-72 lg:h-96 object-cover" />
-            <h1 className="absolute text-7xl font-bold text-red-700 underline underline-offset-2">I NOSTRI VALORI</h1>
+            <h1 className="absolute text-6xl font-bold text-red-700 underline underline-offset-2">I NOSTRI VALORI</h1>
           </div>
           <div className="flex flex-col xl:flex-row p-3 w-full justify-evenly mt-8">
             <div className="flex flex-col xl:w-1/4 m-3 text-center justify-evenly w-5/6 mx-auto">
@@ -21,17 +21,7 @@ export default function Storia(){
                 L'azienda edile "Loris Pasquali Immobiliare Costruzioni" è una nuova e dinamica realtà nel panorama edile, fondata e guidata con passione da un unico socio, il quale porta con sé l'antica tradizione familiare nel settore delle costruzioni. Cresciuto in una <strong>famiglia di muratori</strong> nel cuore della provincia di Treviso e del Veneto, il fondatore ha deciso di intraprendere questa avventura per rimanere vicino alla sua famiglia e per onorare la lunga eredità di maestria artigianale che lo ha preceduto.
               </p>
             </div>
-            <img src="foto2.png" alt="" className="xl:w-1/2 w-4/5 mx-auto mb-3 "/>
-          </div>
-          <hr />
-          <div className="h-[220px] sm:h-[300px] md:h-[400px] lg:h-[450px] xl:h-[500px] lg:w-10/12 w-11/12 mx-auto my-10">
-            <Carousel slide={false}>
-              <img src="famigliaConCasa.png" alt="..." />
-              <img src="foto2.png" alt="..." />
-              <img src="gru.png" alt="..." />
-              <img src="lavoriInCorso.jpg" alt="..." />
-              <img src="attivitaInCorso/casaDopo2.jpg" alt="..." />
-            </Carousel>
+            <img src="foto2.png" alt="" className="xl:w-1/2 h-[260px] sm:h-[300px] md:h-[400px] lg:h-[450px] xl:h-[500px] w-11/12 mx-auto mb-3 "/>
           </div>
           <hr />
           <div className="flex flex-col sm:flex-row p-3 w-full justify-evenly flex-wrap ">
@@ -41,7 +31,10 @@ export default function Storia(){
                 Guidato dalla convinzione che il vero valore di un'impresa risieda nella sua capacità di mettere al centro le esigenze delle persone e di creare spazi che ispirino e trasformino, il fondatore si dedica con fervore alle ristrutturazioni e alle costruzioni. Con una visione orientata al futuro e un profondo rispetto per le radici, "Loris Pasquali Immobiliare Costruzioni" si impegna a offrire soluzioni innovative e su misura per ogni progetto, mantenendo sempre vivo lo spirito dell'artigianato tradizionale.
               </p>
             </div>
-            <video src="videoCostruction.mp4" loop autoPlay muted className="h-[800px] sm:h-[600px] mb-6 w-fit self-center sm:mt-8 ml-5" />
+            <div className="grid place-items-center">
+              <video src="videoCostruction.mp4" loop autoPlay muted className="h-[800px] sm:h-[600px] mb-6 w-fit sm:mt-8 sm:ml-5 rounded-lg" />
+            </div>
+            
             <div className="flex flex-col lg:w-2/5 xl:w-1/4 m-3 text-center justify-evenly w-5/6 mx-auto">
               <h1 className=" font-semibold text-4xl mb-5 2xl:mb-0">IL NOSTRO TERRITORIO</h1>
               <p className="mb-8">
